@@ -1,0 +1,45 @@
+﻿Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Labels,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Custom field (Development),Custom field (Issue colour),Custom field (Rank),Custom field (Start date),Custom field (Story point estimate),Custom field (Team),Custom field (Vulnerability),Custom field (Vulnerability),Comment,Comment,Parent,Parent key,Parent summary,Status Category,Status Category Changed
+bbb,NA-12,10051,Epic,To Do,NA,SauceDemo QA Testing,software,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,,Medium,,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,15/Oct/26 4:58 PM,15/Oct/26 4:58 PM,,,,0,,bbb,,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,,,,,,,,,{},dark_grey,0|i0003r:,,,,,,,,,,,To Do,15/Oct/26 4:58 PM
+User Login Feature,NA-11,10048,Subtask,To Do,NA,SauceDemo QA Testing,software,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,,Medium,,,,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,04/Oct/26 2:33 AM,04/Oct/26 2:33 AM,,,,0,,,,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,,,,,,,,,{},,0|i00033:,,,,,,,,10046,NA-9,User Login Feature,To Do,04/Oct/26 2:33 AM
+Test Valid Login,NA-10,10047,Subtask,To Do,NA,SauceDemo QA Testing,software,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,,Medium,,,,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,04/Oct/26 2:32 AM,04/Oct/26 2:32 AM,,,,0,,,,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,,,,,,,,,{},,0|i0002v:,,,,,,,,10046,NA-9,User Login Feature,To Do,04/Oct/26 2:32 AM
+User Login Feature,NA-9,10046,Story,To Do,NA,SauceDemo QA Testing,software,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,,Medium,,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,04/Oct/26 2:30 AM,04/Oct/26 2:31 AM,04/Oct/26 2:34 AM,,,0,testing,"As a user, I want to log in with valid credentials so that I can access the products.",,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,,,,,,,,,{},,0|i0002n:,,,,,,,,,,,To Do,04/Oct/26 2:30 AM
+User Login Feature,NA-8,10045,Epic,To Do,NA,SauceDemo QA Testing,software,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,,Medium,,,,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,04/Oct/26 2:25 AM,04/Oct/26 2:25 AM,,,,0,,,,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,,,,,,,,,{},dark_yellow,0|i0002f:,,,,,,,,,,,To Do,04/Oct/26 2:25 AM
+Login button does not work,NA-7,10044,Bug,Done,NA,SauceDemo QA Testing,software,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,,High,Done,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,02/Oct/26 7:21 PM,02/Oct/26 7:26 PM,04/Oct/26 1:52 AM,02/Oct/26 7:26 PM,,0,testing,"*Steps to Reproduce:*
+
+# Open SauceDemo login page.
+# Enter username: {{standard_user}}
+# Enter password: {{secret_sauce}}
+# Click *Login*.
+
+*Expected Result:*
+User should be logged in and redirected to the Products page.
+
+*Actual Result:*
+Login button does not work and the user remains on the login page.",,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,,,,,,,,,{},,0|i00027:,,,,,,02/Oct/26 7:25 PM;712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8;{quote}Developer fixed the login button. Ready for QA retesting.{quote},02/Oct/26 7:26 PM;712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8;*QA Retest:* Tested with valid credentials. Login works successfully and the user is redirected to the Products page. Bug fixed and verified.,,,,Done,02/Oct/26 7:26 PM
+Login error message is incorrect,NA-6,10043,Bug,To Do,NA,SauceDemo QA Testing,software,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,,High,,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,02/Oct/26 7:11 PM,04/Oct/26 2:19 AM,05/Oct/26 10:18 AM,,,0,testing,"# Open SauceDemo login page.
+# Enter {{standard_user}} as username.
+# Enter an incorrect password.
+# Click *Login*.
+
+*Expected Result:*
+A clear and correct error message should be displayed.
+
+*Actual Result:*
+The login error message is incorrect or unclear.",,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,,,,,,,,,{},,0|i0001c:,,,,,,02/Oct/26 7:16 PM;712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8;Developer fixed the login error message. Ready for QA retesting.,02/Oct/26 7:18 PM;712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8;*QA Retest:* Tested with an incorrect password. The correct error message is displayed. Bug fixed and verified.,,,,To Do,04/Oct/26 2:19 AM
+Product sorting does not work correctly,NA-5,10042,Bug,Done,NA,SauceDemo QA Testing,software,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,,High,Done,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,02/Oct/26 6:25 PM,02/Oct/26 7:08 PM,02/Oct/26 7:06 PM,02/Oct/26 7:08 PM,,0,,"*Steps to Reproduce*
+
+# Open SauceDemo.
+# Log in with {{standard_user}} and {{secret_sauce}}.
+# Go to the Products page.
+# Open the sorting dropdown.
+# Select *Price (low to high)*.
+
+*Expected Result:*
+Products should be displayed from the lowest price to the highest price.
+
+*Actual Result:*
+Products are not displayed in the correct price order",,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,,,,,,,,,{},,0|i0001f:,,,,,,02/Oct/26 7:06 PM;712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8;Developer fixed the product sorting issue. Ready for QA retesting.,,,,,Done,02/Oct/26 7:08 PM
+Test sorting by Price Low-High,NA-4,10041,Subtask,To Do,NA,SauceDemo QA Testing,software,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,,Medium,,,,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,02/Oct/26 6:24 PM,02/Oct/26 6:24 PM,,,,0,,,,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,,,,,,,,,{},,0|i0001z:,,,,,,,,10039,NA-2,Test Product Sorting,To Do,02/Oct/26 6:24 PM
+Test sorting by Name A-Z,NA-3,10040,Subtask,To Do,NA,SauceDemo QA Testing,software,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,,Medium,,,,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,02/Oct/26 6:23 PM,02/Oct/26 6:23 PM,,,,0,,,,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,,,,,,,,,{},,0|i0001r:,,,,,,,,10039,NA-2,Test Product Sorting,To Do,02/Oct/26 6:23 PM
+Test Product Sorting,NA-2,10039,Task,Done,NA,SauceDemo QA Testing,software,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,,High,Done,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,02/Oct/26 6:13 PM,02/Oct/26 7:08 PM,05/Oct/26 9:56 AM,02/Oct/26 7:08 PM,,0,testing,Verify that products on the SauceDemo Products page can be sorted correctly by product name and price.,,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,,,,,,,,,{},,0|i0001d:,,,,,,,,,,,Done,02/Oct/26 7:08 PM
+Test Login Functionality,NA-1,10006,Bug,Done,NA,SauceDemo QA Testing,software,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,,Medium,Done,,,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,24/Sep/26 11:24 AM,24/Sep/26 11:32 AM,02/Oct/26 6:04 PM,24/Sep/26 11:32 AM,,0,,,,nabeel malik,712020:5aec08c6-84e1-4815-bf86-79a198a7c1d8,,,,,,,,,{},,0|i0001b:,,,,,,,,,,,Done,24/Sep/26 11:32 AM
